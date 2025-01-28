@@ -1,0 +1,11 @@
+image:
+  repository: webapplication1
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+
+ingress:
+  enabled: false
