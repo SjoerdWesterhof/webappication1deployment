@@ -9,3 +9,6 @@ service:
 
 ingress:
   enabled: false
+
+serviceaccount:
+  create: false
